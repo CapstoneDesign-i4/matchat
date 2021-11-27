@@ -17,7 +17,7 @@ matching
 
 ## 2. 챗봇
 
-cahtbot
+chatbot
 
 
 ## 3. 결함도 측정
