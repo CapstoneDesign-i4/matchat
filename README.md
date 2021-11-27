@@ -12,14 +12,15 @@
 
 ## 1. 상품 매칭
 
-~matching~
+matching  
+**YOLO**
 
 
 ## 2. 챗봇
 
-~chatbot~
+chatbot
 
 
 ## 3. 결함도 측정
 
-~defect~
+defect
