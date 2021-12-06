@@ -73,7 +73,7 @@ https://drive.google.com/drive/folders/134DOgNAlOXORLMOxeh9ysrxjV23LCFbR?usp=sha
 https://drive.google.com/drive/folders/1dsoOYzUN85VswM3KSvK2cydDm6q8a9p8?usp=sharing  
 - how to use yolo?    
 https://pysource.com/2019/06/27/yolo-object-detection-using-opencv-with-python/  
-- how to customiz yolo?  
+- how to customize yolo?  
 https://www.youtube.com/watch?v=51fZ2FTau7E  
 
 ### Dialogflow
