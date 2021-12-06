@@ -57,4 +57,4 @@ chatbot
 ## 3. 결함도 측정
 
 <img width="500" alt="딥러닝" src="https://user-images.githubusercontent.com/71023835/144868608-e8a2b1fa-e6e8-47c7-be3f-42d1927d853e.png">
-위의 그림과 같이 딥러닝 모델을 활용하여 판매자가 판매하고자 하는 상품에 대한 결함도를 측정할 예정이다.
+추후 CNN을 이용해 결함도 분석 모델을 만들 예정이다.
