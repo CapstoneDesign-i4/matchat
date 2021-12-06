@@ -34,7 +34,7 @@ YOLO를 통한 Object Detection 방법은 아래와 같다.
 1) 먼저 파이썬 프로그램 실행 후 OpenCV와 numpy 모듈을 import한 후 YOLO를 로드한다.
 ![2021-12-06 (2)](https://user-images.githubusercontent.com/71023835/144865194-936f916e-2b87-4fad-ad10-7c716d39ba15.png)
 
-2) 이후 탐지할 물체가 있는 이미지 파일을 로드하고 이미지의 너비와 높이를 설정한 후, 이미지에서 물체를 탐지한다.
+2) 탐지할 물체가 있는 이미지 파일을 로드하고 이미지의 너비와 높이를 설정한 후, 이미지에서 물체를 탐지한다.
 ![2021-12-06 (4)](https://user-images.githubusercontent.com/71023835/144865235-2a49df1e-7eb4-476e-ac14-9a4648301b7a.png)
 
 3) 신뢰도, 신뢰 임계값을 계산하고 결과를 화면에 표시하고 노이즈를 제거한다.
