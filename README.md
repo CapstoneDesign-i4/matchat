@@ -61,4 +61,5 @@ chatbot
 
 ## 3. 결함도 측정
 
-defect
+<img width="500" alt="딥러닝" src="https://user-images.githubusercontent.com/71023835/144868608-e8a2b1fa-e6e8-47c7-be3f-42d1927d853e.png">
+추후 CNN을 이용해 결함도 분석 모델을 만들 예정이다.
