@@ -26,6 +26,9 @@
 
 따라서, 본 플랫폼에는 상품 매칭, 결함도 분석, 챗봇 3가지 주요 기능을 가진다.
 
+# 프로젝트 아키텍쳐
+
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FH1Fbm%2FbtrneZqWv0G%2FOGi6Ca4GjRWr0vDTmkVhs0%2Fimg.jpg"  width="60%" height="60%"/>
 
 # 주요기능 및 기술
 
