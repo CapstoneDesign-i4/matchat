@@ -29,7 +29,8 @@ target
 
 ## 1. 상품 매칭
 
-YOLO를 통한 Object Detection 방법은 아래와 같다.
+중고 거래 서비스에서 신뢰성을 높이기 위해 상품 매칭 서비스를 YOLO를 활용하여 구현하고자 한다.
+YOLO를 통한 Object Detection 방법을 간단히 설명하면 아래와 같다.
 (필수 준비 파일 : weight file, cfg file, names file, image file)
 1) 먼저 파이썬 프로그램 실행 후 OpenCV와 numpy 모듈을 import한 후 YOLO를 로드한다.
 ![2021-12-06 (2)](https://user-images.githubusercontent.com/71023835/144865194-936f916e-2b87-4fad-ad10-7c716d39ba15.png)
