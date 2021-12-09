@@ -80,12 +80,12 @@ Dialogflow는 구글에서 제공하는 자연어 이해 플랫폼으로 대화�
 
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FPwuHG%2Fbtrnw8VhGg8%2FSwVhRuq6ImwyekzjRXKthK%2Fimg.png"  width="50%" height="50%"/>
 
-#### 2. 각 entity를 포함하는 사용자의 질문인 intent를 생성한다. 질문은 모델의 정확도를 높일 수 있도록 다양한 형태로 생성한다. 인사말 intent도 생성하여 대화가 시작될 때 답할 수 있도록 설정한다.
+#### 2. 각 entity를 포함하는 사용자의 질문인 intent를 생성한다. 질문은 모델의 정확도를 높일 수 있도록 다양한 형태로 생성한다. 
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FmKhyA%2FbtrnxlUAjJO%2FeWkCBqNWdlB5LE4NXa95D0%2Fimg.png"  width="50%" height="50%"/>
 
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbs00gK%2FbtrnwyzQQGi%2FtGrPVnSyPNYosZIIXH4pGk%2Fimg.png"  width="50%" height="50%"/>
 
-#### 3. 각 질문에 해당하는 response를 생성한다. 
+#### 3. 각 질문에 해당하는 대답인 response를 생성한다. 
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcB2Jv5%2FbtrnvpwRChP%2F3BRgj5MvHnaKdLyERWajqK%2Fimg.png"  width="50%" height="50%"/>
 
 #### 4. 챗봇을 실행시켜본 결과, 챗봇이 사용자의 질문에 적절하게 답변하는 모습을 볼 수 있다.
