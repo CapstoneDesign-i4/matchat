@@ -69,14 +69,23 @@ weight file의 경우, 하단 [참고자료](#참고자료)에서 다운로드 �
 챗봇은 Dialogflow를 활용하여 구현하고자 한다. 상품 구매 전후로 사용자의 예상 질문을 선정하여 챗봇을 생성하고, 적절하게 응답할 수 있는 지 확인해보았다. 
 
 #### 1. 우선 질문의 핵심 구성 요소가 되는 entity를 설정한다. 사용기간, 사용횟수, 포장유무, 수령지 등을 설정하였다.
-![image](https://user-images.githubusercontent.com/66419086/145352654-47ad0dcd-7bda-4b1c-bbf0-ac3f3bc00402.png)
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FGw1WT%2FbtrnpewGmAz%2FalD11Ra4k2mx1skjxVbGKK%2Fimg.png"  width="50%" height="50%"/>
+
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcmDFgp%2Fbtrnv3fNZt3%2FdenHSeieAwRZvj2buRyP3K%2Fimg.png"  width="50%" height="50%"/>
+
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FPwuHG%2Fbtrnw8VhGg8%2FSwVhRuq6ImwyekzjRXKthK%2Fimg.png"  width="50%" height="50%"/>
 
 #### 2. 각 entity를 포함하는 intent를 생성한다. intent는 모델의 정확도를 높이기 위해 여러가지 형태로 생성한다. 이외에도 인사말 intent를 생성하여 대화가 시작될 때 답할 수 있도록 설정한다.
-![image](https://user-images.githubusercontent.com/66419086/145352640-2519cfe7-7170-477a-9c86-774fed2bda9a.png)
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FmKhyA%2FbtrnxlUAjJO%2FeWkCBqNWdlB5LE4NXa95D0%2Fimg.png"  width="50%" height="50%"/>
+
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbs00gK%2FbtrnwyzQQGi%2FtGrPVnSyPNYosZIIXH4pGk%2Fimg.png"  width="50%" height="50%"/>
 
 #### 3. 각 질문에 해당하는 response를 생성한다. 이후 결과를 확인한다. 
-![image](https://user-images.githubusercontent.com/66419086/145352613-dbb17718-fd73-4f09-a61b-747ccd34d7e7.png)
-![image](https://user-images.githubusercontent.com/66419086/145352629-705e4a75-40c0-4727-b0b3-1a5f8e33c18e.png)
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcB2Jv5%2FbtrnvpwRChP%2F3BRgj5MvHnaKdLyERWajqK%2Fimg.png"  width="50%" height="50%"/>
+
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FtM3N5%2FbtrnwyNo3rv%2FbRqMOgpRNnbFL3KdvQEYtK%2Fimg.png"  width="50%" height="50%"/>
+
+결과 영상 링크 : https://youtu.be/7JS65KC21m4
 
 위 결과에서 볼 수 있듯이, 생성한 챗봇이 사용자의 질문에 적절하게 답변할 수 있음을 확인했다. 
 
