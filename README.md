@@ -43,20 +43,20 @@
 YOLO는 real-time object detection system으로 입력 이미지를 여러 grid로 나누고 
 grid별로 탐지한 물체의 신뢰도를 비교하여 물체를 인식한다.
 YOLO는 단일 신경망 구조를 가져 단순하고 빠르다는 특징이 있다.
-우리팀은 보편적으로 많이 사용되는 YOLO V3를 사용하여 Object Detection을 검증하였다.
+우리팀은 보편적으로 많이 사용되는 YOLO 3를 사용하여 Object Detection을 검증하였다.
 
 YOLO를 통한 Object Detection 방법을 간단히 설명하면 아래와 같다.  
 (필수 준비 파일 : weight file, cfg file, names file, image file)  
 weight file의 경우, 하단 [참고자료](#참고자료)에서 다운로드 가능하다  
 
 #### 1. 먼저 파이썬 프로그램 실행 후 OpenCV와 numpy 모듈을 import한 후 YOLO를 로드한다.
-![2021-12-06 (2)](https://user-images.githubusercontent.com/71023835/144865194-936f916e-2b87-4fad-ad10-7c716d39ba15.png)
+![1](https://user-images.githubusercontent.com/71023835/145358928-40af8cbd-82e0-48eb-af89-db7a5a730c48.png)
 #### 2. 탐지할 물체가 있는 이미지 파일을 로드하고 이미지의 너비와 높이를 설정한 후, 이미지에서 물체를 탐지한다.
-![2021-12-06 (4)](https://user-images.githubusercontent.com/71023835/144865235-2a49df1e-7eb4-476e-ac14-9a4648301b7a.png)
+![2](https://user-images.githubusercontent.com/71023835/145358953-4462807c-ea02-44f9-ac4a-34c4b5891a0c.png)
 #### 3. 신뢰도, 신뢰 임계값을 계산하고 결과를 화면에 표시하고 노이즈를 제거한다.
-![2021-12-06 (5)](https://user-images.githubusercontent.com/71023835/144865259-7a013f9a-4b8a-4e65-8587-c5b356bb7d8f.png)
+![3](https://user-images.githubusercontent.com/71023835/145358968-8f32ce4d-c607-43ce-bfd1-528e65fe356b.png)
 #### 4. 모든 정보들을 추출하고 최종적인 결과물을 화면에 표시한다.
-![2021-12-06 (6)](https://user-images.githubusercontent.com/71023835/144865306-62406472-cf12-4f86-ba72-3f34201e30fd.png)
+![4](https://user-images.githubusercontent.com/71023835/145358991-4d21617f-e585-4c75-bd59-01ce6e064628.png)
 #### 5. 결과는 다음과 같다.
 <img src="https://user-images.githubusercontent.com/71023835/144863848-728c5b75-8c63-42b9-b5a3-7908554c5438.png"  width="40%" height="40%"/>
 
