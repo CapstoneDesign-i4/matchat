@@ -90,7 +90,7 @@ Dialogflow는 구글에서 제공하는 자연어 이해 플랫폼으로 대화�
 
 ![image](https://user-images.githubusercontent.com/66419086/145352721-0595dbbf-1444-4907-b968-6683cb796ace.png)
 
-프로젝트에 챗봇을 적용할 때에는 개별 상품의 정보를 불러와 대답할 수 있어야 한다. 따라서 Dialogflow와 외부간의 데이터 이동이 필요하다. 추후 프로젝트를 진행하며 Dialogflow와 상품 정보가 저장된 DB간의 연결, fulfillment 기능을 사용한 Webhook 연동 등을 구현할 예정이다.
+프로젝트에 챗봇을 적용할 때에는 챗봇이 개별 상품의 정보를 불러와 대답할 수 있어야 하기 때문에, Dialogflow와 외부간의 데이터 이동이 필요하다. 추후 프로젝트를 진행하며 Dialogflow와 상품 정보가 저장된 DB간의 연결, fulfillment 기능을 사용한 Webhook 연동 등을 구현할 예정이다.
 
 ## 3. 결함도 측정
 
