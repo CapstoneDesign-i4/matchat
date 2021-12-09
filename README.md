@@ -66,33 +66,31 @@ weight file의 경우, 하단 [참고자료](#참고자료)에서 다운로드 �
 
 ## 2. 챗봇
 
-챗봇은 Dialogflow를 활용하여 구현하고자 한다. 상품 구매 전후로 사용자의 예상 질문을 선정하여 챗봇을 생성하고, 적절하게 응답할 수 있는 지 확인해보았다. 
+Dialogflow는 구글에서 제공하는 자연어 이해 플랫폼으로 대화형 사용자 인터페이스를 설계하고 통합할 수 있다. 챗봇 기술을 검증하기 위해 Dialogflow에서 챗봇을 생성하였다. 상품 구매 전후로 예상되는 사용자의 질문을 선정하고, 챗봇이 질문에 적절하게 응답할 수 있는 지 확인해보았다.  
 
-#### 1. 우선 질문의 핵심 구성 요소가 되는 entity를 설정한다. 사용기간, 사용횟수, 포장유무, 수령지 등을 설정하였다.
+#### 1. 질문의 핵심 단어가 되는 entity를 설정한다. 상품 문의에 자주 쓰이는 단어인 사용기간이나 횟수, 포장, 수령지 등을 entity로 설정하였다. 이때 Define synonyms 기능으로 동의어도 한 entity로 인식할 수 있도록 다양하게 등록한다.
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FGw1WT%2FbtrnpewGmAz%2FalD11Ra4k2mx1skjxVbGKK%2Fimg.png"  width="50%" height="50%"/>
 
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcmDFgp%2Fbtrnv3fNZt3%2FdenHSeieAwRZvj2buRyP3K%2Fimg.png"  width="50%" height="50%"/>
 
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FPwuHG%2Fbtrnw8VhGg8%2FSwVhRuq6ImwyekzjRXKthK%2Fimg.png"  width="50%" height="50%"/>
 
-#### 2. 각 entity를 포함하는 intent를 생성한다. intent는 모델의 정확도를 높이기 위해 여러가지 형태로 생성한다. 이외에도 인사말 intent를 생성하여 대화가 시작될 때 답할 수 있도록 설정한다.
+#### 2. 각 entity를 포함하는 사용자의 질문인 intent를 생성한다. 질문은 모델의 정확도를 높일 수 있도록 다양한 형태로 생성한다. 인사말 intent도 생성하여 대화가 시작될 때 답할 수 있도록 설정한다.
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FmKhyA%2FbtrnxlUAjJO%2FeWkCBqNWdlB5LE4NXa95D0%2Fimg.png"  width="50%" height="50%"/>
 
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbs00gK%2FbtrnwyzQQGi%2FtGrPVnSyPNYosZIIXH4pGk%2Fimg.png"  width="50%" height="50%"/>
 
-#### 3. 각 질문에 해당하는 response를 생성한다. 이후 결과를 확인한다. 
+#### 3. 각 질문에 해당하는 response를 생성한다. 
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcB2Jv5%2FbtrnvpwRChP%2F3BRgj5MvHnaKdLyERWajqK%2Fimg.png"  width="50%" height="50%"/>
 
+#### 4. 챗봇을 실행시켜본 결과, 챗봇이 사용자의 질문에 적절하게 답변하는 모습을 볼 수 있다.
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FtM3N5%2FbtrnwyNo3rv%2FbRqMOgpRNnbFL3KdvQEYtK%2Fimg.png"  width="50%" height="50%"/>
 
-결과 영상 링크 : https://youtu.be/7JS65KC21m4
-
-위 결과에서 볼 수 있듯이, 생성한 챗봇이 사용자의 질문에 적절하게 답변할 수 있음을 확인했다. 
-
+#### 결과 영상 링크 : https://youtu.be/7JS65KC21m4    
 
 ![image](https://user-images.githubusercontent.com/66419086/145352721-0595dbbf-1444-4907-b968-6683cb796ace.png)
 
-챗봇을 프로젝트에서 실제로 구현하기 위해서는 dialogflow를 DB와 연결하여 정보를 불러올 수 있어야 한다. 추후 프로젝트를 진행하며 DB를 연결하여 상품의 정보를 불러올 수 있도록 할 예정이다.
+프로젝트에 챗봇을 적용할 때에는 개별 상품의 정보를 불러와 대답할 수 있어야 한다. 따라서 Dialogflow와 외부간의 데이터 이동이 필요하다. 추후 프로젝트를 진행하며 Dialogflow와 상품 정보가 저장된 DB간의 연결, fulfillment 기능을 사용한 Webhook 연동 등을 구현할 예정이다.
 
 ## 3. 결함도 측정
 
