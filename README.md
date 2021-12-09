@@ -58,7 +58,7 @@ weight file의 경우, 하단 [참고자료](#참고자료)에서 다운로드 �
 #### 4. 모든 정보들을 추출하고 최종적인 결과물을 화면에 표시한다.
 ![4](https://user-images.githubusercontent.com/71023835/145358991-4d21617f-e585-4c75-bd59-01ce6e064628.png)
 #### 5. 결과는 다음과 같다.
-<img src="https://user-images.githubusercontent.com/71023835/144863848-728c5b75-8c63-42b9-b5a3-7908554c5438.png"  width="40%" height="40%"/>
+<img src="https://user-images.githubusercontent.com/71023835/144863848-728c5b75-8c63-42b9-b5a3-7908554c5438.png"  width="50%" height="50%"/>
 
 위와 같이 YOLO를 통한 Object Detection으로 판매자가 앱에 등록한 물건과 실제 물건을 비교하여 동일 상품인지 판별해 낼 예정이다.
 
@@ -96,6 +96,8 @@ weight file의 경우, 하단 [참고자료](#참고자료)에서 다운로드 �
 https://drive.google.com/drive/folders/134DOgNAlOXORLMOxeh9ysrxjV23LCFbR?usp=sharing  
 - weight file custom_heel  
 https://drive.google.com/drive/folders/1dsoOYzUN85VswM3KSvK2cydDm6q8a9p8?usp=sharing  
+- what is YOLO? (demo video)  
+https://www.youtube.com/watch?v=MPU2HistivI&t=2s  
 - how to use yolo?    
 https://pysource.com/2019/06/27/yolo-object-detection-using-opencv-with-python/  
 - how to customize yolo?  
@@ -104,5 +106,18 @@ https://www.youtube.com/watch?v=51fZ2FTau7E
 ### Dialogflow
 - dialogflow  
 https://dialogflow.cloud.google.com/  
-- how to use dialogflow?  
+- how to use dialogflow?   
 https://m.blog.naver.com/spring1a/221386879776  
+- about dialogflow database - dialogflow fulfillment webhook  
+https://medium.com/@jwlee98/gcp-dialogflow-%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EA%B0%84%EB%8B%A8-%EC%B1%97%EB%B4%87-%EB%A7%8C%EB%93%A4%EA%B8%B0-2%ED%83%84-7183888d0af5  
+- about dialogflow fulfillment  
+https://cloud.google.com/dialogflow/es/docs/fulfillment-overview  
+- how to make a webhook for dialogflow fulfillmen?   
+https://medium.com/@pallavtrivedi03/how-to-make-a-webhook-for-dialogflow-fulfillment-d02835cc50bf  
+
+### MATCHAT
+- prototype  
+link  
+
+- demo video  
+link  
