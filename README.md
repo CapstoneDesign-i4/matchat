@@ -40,6 +40,9 @@
 ## 1. 상품 매칭
 
 중고 거래 서비스에서 신뢰성을 높이기 위해 상품 매칭 서비스를 YOLO를 활용하여 구현하고자 한다.
+YOLO는 real-time object detection system으로 입력 이미지를 여러 grid로 나누고 grid별로 탐지한 물체의 신뢰도를 비교하여 물체를 인식한다.
+YOLO는 단일 신경망 구조를 가져 단순하고 빠르다는 특징이 있다.
+우리팀은 보편적으로 많이 사용되는 YOLO V3를 사용하여 Object Detection을 검증하였다.
 
 YOLO를 통한 Object Detection 방법을 간단히 설명하면 아래와 같다.  
 (필수 준비 파일 : weight file, cfg file, names file, image file)  
