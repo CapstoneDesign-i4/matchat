@@ -30,6 +30,11 @@
 # 프로젝트 아키텍쳐
 
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FH1Fbm%2FbtrneZqWv0G%2FOGi6Ca4GjRWr0vDTmkVhs0%2Fimg.jpg"  width="60%" height="60%"/>
+프로젝트 구조는 크게 HW와 SW 로 나눌 수 있다.
+
+HW구조는 상품을 넣을 사물함이 있고 외부에는 잠금장치, 내부에는 카메라, 조명, 턴테이블 ,모터를 설치해 상품을 촬영할 환경을 갖춘 사물함을 설계했다.
+
+SW구조로는 판매자와 구매자 모두가 이용할 앱을 만들어 인터넷과 연결하고 서버의 데이터에는 앱과 HW에서 전달받은 각종 정보들을 저장할 수 있도록 한다. 
 
 # 주요기능 및 기술
 
