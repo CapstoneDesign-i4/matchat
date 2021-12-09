@@ -61,8 +61,24 @@ weight file의 경우, 하단 [참고자료](#참고자료)에서 다운로드 �
 
 ## 2. 챗봇
 
-chatbot
+챗봇은 Dialogflow를 활용하여 구현하고자 한다. 상품 구매 전후로 사용자의 예상 질문을 선정하여 챗봇을 생성하고, 적절하게 응답할 수 있는 지 확인해보았다. 
 
+#### 1. 우선 질문의 핵심 구성 요소가 되는 entity를 설정한다. 사용기간, 사용횟수, 포장유무, 수령지 등을 설정하였다.
+![image](https://user-images.githubusercontent.com/66419086/145352654-47ad0dcd-7bda-4b1c-bbf0-ac3f3bc00402.png)
+
+#### 2. 각 entity를 포함하는 intent를 생성한다. intent는 모델의 정확도를 높이기 위해 여러가지 형태로 생성한다. 이외에도 인사말 intent를 생성하여 대화가 시작될 때 답할 수 있도록 설정한다.
+![image](https://user-images.githubusercontent.com/66419086/145352640-2519cfe7-7170-477a-9c86-774fed2bda9a.png)
+
+#### 3. 각 질문에 해당하는 response를 생성한다. 이후 결과를 확인한다. 
+![image](https://user-images.githubusercontent.com/66419086/145352613-dbb17718-fd73-4f09-a61b-747ccd34d7e7.png)
+![image](https://user-images.githubusercontent.com/66419086/145352629-705e4a75-40c0-4727-b0b3-1a5f8e33c18e.png)
+
+위 결과에서 볼 수 있듯이, 생성한 챗봇이 사용자의 질문에 적절하게 답변할 수 있음을 확인했다. 
+
+
+![image](https://user-images.githubusercontent.com/66419086/145352721-0595dbbf-1444-4907-b968-6683cb796ace.png)
+
+챗봇을 프로젝트에서 실제로 구현하기 위해서는 dialogflow를 DB와 연결하여 정보를 불러올 수 있어야 한다. 추후 프로젝트를 진행하며 DB를 연결하여 상품의 정보를 불러올 수 있도록 할 예정이다.
 
 ## 3. 결함도 측정
 
